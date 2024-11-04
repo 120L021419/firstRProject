@@ -1,0 +1,21 @@
+---
+title: "Assignment1RMarkdown"
+author: "Ding Xianming"
+date: "2024-11-04"
+output: html_document
+---
+
+# Wave plot
+```{r}
+x <- seq(0, 20, 0.01)
+y <- sin(x)
+sin_df <- data.frame(x, y)
+# print(x)
+# print(y)
+head(sin_df, 3)
+# print(head(sin_df, 3))
+plot(sin_df)
+```
+
+\[\sin^{2}(x)+\cos^{2}(x)=1\]
+
